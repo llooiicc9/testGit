@@ -9,6 +9,9 @@ public class MainClass
 
 		
 		System.out.println(update.returnTheString());
+		
+		TestGitUpdate test = new TestGitUpdate("Salut toi");
+		System.out.println(test.returnTheString());
 	}
 
 }
